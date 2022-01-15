@@ -2,15 +2,21 @@
   "name": "px-html",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://honourcreators.github.io/prakantafoundation/web/",
   "scripts": {
     "start": "gulp server",
     "dev": "gulp dev",
     "build": "gulp build",
     "deploy-init": "gulp deploy-init",
-    "deploy": "gulp deploy"
+    // "deploy": "gulp deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "dependencies": {
+    "-": "0.0.1",
+    "gh-pages": "^3.2.3",
+    "save-dev": "0.0.1-security"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
