@@ -1,3 +1,4 @@
+
 image: node
 
 before_script:
@@ -11,8 +12,9 @@ pages:
   stage: deploy
   script:
     - unset CI
-    - npm run build
-    - mv web public
+    - BASE_PATH=61e347efc5df5f0012462463/ npm run build
+    - mv public public2
+    - mv build public
   artifacts:
     paths:
       - public

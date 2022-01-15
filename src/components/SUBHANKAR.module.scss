@@ -1,0 +1,251 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 22px/1.15 "Lato", Helvetica, Arial, serif;
+$font_type1: 700 1em/1.15 "Lato", Helvetica, Arial, serif;
+$font_type2: 700 15px/1.15 "Lato", Helvetica, Arial, serif;
+$font_type3: 800 24px/1.15 "Lato", Helvetica, Arial, serif;
+$font_type4: 700 10px/1.15 "Lato", Helvetica, Arial, serif;
+
+.group {
+  display: flex;
+  background-color: rgb(230, 238, 243);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25098039215686274);
+}
+.group_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 689px;
+  flex-grow: 1;
+}
+.subtitle {
+  @include font-face($font_type0, rgb(0, 0, 0), 0px);
+}
+.subtitle_box_layout {
+  position: absolute;
+  top: 25px;
+  bottom: 630px;
+  left: 28px;
+  flex-grow: 1;
+  right: 28px;
+}
+.subtitle_span0 {
+  @include font-face($font_type1, #0a8d99ff, 0px);
+}
+.subtitle_span1 {
+  @include font-face($font_type1, #000000ff, 0px);
+}
+.subtitle_span2 {
+  @include font-face($font_type1, #99095dff, 0px);
+}
+.highlights {
+  @include font-face($font_type2, rgb(0, 0, 0), 1.43px);
+}
+.highlights_layout {
+  position: absolute;
+  top: 47px;
+  bottom: 624px;
+  left: 28px;
+  flex-grow: 1;
+  right: 28px;
+}
+.group1 {
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25098039215686274);
+  border-radius: 30px 30px 30px 30px;
+}
+.group1_layout {
+  position: absolute;
+  top: 0px;
+  height: 170px;
+  left: 28px;
+  flex-grow: 1;
+  right: 30px;
+  margin: 109px 0px 410px;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+  border-radius: 18px 18px 18px 18px;
+}
+.decorator_layout {
+  position: absolute;
+  top: 0px;
+  height: 170px;
+  width: 320px;
+  right: -2px;
+}
+.image {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.medium_title {
+  @include font-face($font_type3, rgb(231, 239, 244), 0px);
+}
+.medium_title_layout {
+  position: absolute;
+  top: 61px;
+  bottom: 81px;
+  left: 12px;
+  flex-grow: 1;
+  right: 12px;
+}
+.highlights1 {
+  @include font-face($font_type2, rgb(231, 239, 244), 0px);
+}
+.highlights1_layout {
+  position: absolute;
+  top: 42px;
+  bottom: 110px;
+  left: 12px;
+  flex-grow: 1;
+  right: 12px;
+}
+.small_text_body {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type4, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.small_text_body_box_layout {
+  position: absolute;
+  top: 118px;
+  bottom: 40px;
+  left: 26px;
+  flex-grow: 1;
+  right: 26px;
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image3 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.cover {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(106, 182, 189, 0.5411764705882353));
+  border: 1px solid rgba(77, 167, 175, 0.541);
+  border-radius: 20px 20px 20px 20px;
+}
+.cover_layout {
+  position: absolute;
+  top: 0px;
+  height: 140px;
+  left: 0px;
+  right: 0px;
+  width: 37.23%;
+  margin: 326px 55.32% 223px 7.45%;
+}
+.icon1 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.highlights2 {
+  @include h-center-content;
+  font: $font_type2;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.highlights2_layout {
+  position: absolute;
+  top: 426px;
+  bottom: 245px;
+  left: 0px;
+  right: 0px;
+  width: 20.21%;
+  margin: 0px 63.83% 0px 15.96%;
+}
+.icon2 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.cover1 {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(224, 116, 179, 0.5411764705882353));
+  border: 1px solid rgba(159, 28, 104, 0.49);
+  border-radius: 20px 20px 20px 20px;
+}
+.cover1_layout {
+  position: absolute;
+  top: 0px;
+  height: 140px;
+  left: 0px;
+  right: 0px;
+  width: 37.23%;
+  margin: 326px 7.45% 223px 55.32%;
+}
+.highlights2_layout1 {
+  position: absolute;
+  top: 426px;
+  bottom: 245px;
+  left: 0px;
+  right: 0px;
+  width: 21.81%;
+  margin: 0px 15.16% 0px 63.03%;
+}
+.cover2 {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(224, 116, 179, 0.5411764705882353));
+  border: 1px solid rgba(161, 35, 108, 0.552);
+  border-radius: 20px 20px 20px 20px;
+}
+.cover2_layout {
+  position: absolute;
+  top: 0px;
+  height: 140px;
+  left: 0px;
+  right: 0px;
+  width: 37.23%;
+  margin: 501px 55.32% 48px 7.45%;
+}
+.highlights2_layout2 {
+  position: absolute;
+  top: 601px;
+  bottom: 70px;
+  left: 0px;
+  right: 0px;
+  width: 21.01%;
+  margin: 0px 63.43% 0px 15.56%;
+}
+.cover_layout1 {
+  position: absolute;
+  top: 0px;
+  height: 140px;
+  left: 0px;
+  right: 0px;
+  width: 37.23%;
+  margin: 501px 7.45% 48px 55.32%;
+}
+.highlights2_layout3 {
+  position: absolute;
+  top: 602px;
+  bottom: 69px;
+  left: 0px;
+  right: 0px;
+  width: 17.29%;
+  margin: 0px 17.42% 0px 65.29%;
+}
+.icon3 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
